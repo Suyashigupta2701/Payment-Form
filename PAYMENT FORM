@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Payment Form</title>
+</head>
+<body>
+<form action="">
+<h1>Payment Form</h1>
+<p>Required fields are followed by *</p>
+<h2>Contact Information</h2>
+<p>Name: *<input type="text" name="name" required></p>
+<fieldset>
+<legend>Gender *</legend>
+<p>
+Male<input type="radio" name="gender" id="gender" required > Female<input type="radio" name="gender" id="gender" required>
+</p>
+</fieldset>
+<p>Email:*<input type="email" id="email" required></p>
+<p>Pincode:*<input type="number" name="pincode" id="pincode" required></p>
+<h2>Payment Information</h2>
+<p>Card type:*
+<select name="card_type" id="card_type" required>
+<option value="">--Select a card type--</option>
+<option value="visa">Visa</option>
+<option value="rupay">Rupay</option>
+<option value="mastercard">Mastercard</option>
+</select>
+</p>
+<p>
+Card number:*<input type="Number" name="card_number" id="card_number" required>
+</p>
+<p>
+CVV: *<input type="password" name="cvv" id="cvv" required>
+</p>
+<input type="submit" value="Pay Now">
+</form>
+</body>
+</html>
+
+
